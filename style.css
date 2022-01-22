@@ -1,0 +1,23 @@
+.header {
+    font-size: 30px;
+    margin-top: 10px;
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button {
+    background-color: rgb(167, 99, 99);
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+canvas {
+    border: 1px solid black;
+    border-radius: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 50px red;}
+    to {box-shadow: 1px 1px 38px purple;}
+}
